@@ -18,12 +18,19 @@ This project implements a basic E-Commerce system in Django with two models:
    ```bash
    git clone <repository_url>
    cd <repository_folder>
-2. Create a virtual environment
-   python -m venv venv
-   source venv/bin/activate
-3.Install dependencies
-  pip install -r requirements.txt
-4. Apply migrations
-   python manage.py migrate
-5. Run the development
-   python manage.py runserver   
+Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+````
+Install dependencies:
+```bash 
+pip install -r requirements.txt
+````
+Apply migrations:
+```bash
+python manage.py migrate
+````
+Run the development server:
+```bash
+python manage.py runserver
